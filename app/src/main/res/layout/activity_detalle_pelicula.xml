@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".DetallePelicula">
+
+    <ImageView
+        android:id="@+id/iv_pelicula_imagen"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="300dp"
+        android:src="@drawable/bonesheader"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/yellow"/>
+    <TextView
+        android:id="@+id/tv_nombre_pelicula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BONES"
+        android:paddingRight="20dp"
+        android:layout_marginTop="-17dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/black"
+        android:textColor="@color/yellow"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/tv_pelicula_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="aquí va la descripción de la película
+        estoy rellenando toda la información " />
+
+</LinearLayout>
